@@ -8,6 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\UnityGame\**" />
+    <Compile Remove="wwwroot\videos\**" />
+    <Content Remove="wwwroot\UnityGame\**" />
+    <Content Remove="wwwroot\videos\**" />
+    <EmbeddedResource Remove="wwwroot\UnityGame\**" />
+    <EmbeddedResource Remove="wwwroot\videos\**" />
+    <None Remove="wwwroot\UnityGame\**" />
+    <None Remove="wwwroot\videos\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Views\About\" />
     <Folder Include="wwwroot\files\muscles\Backstroke\" />
     <Folder Include="wwwroot\files\muscles\Breaststroke\" />
@@ -17,8 +28,6 @@
     <Folder Include="wwwroot\files\technologies\Goggles\" />
     <Folder Include="wwwroot\files\technologies\Starting Blocks\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="wwwroot\UnityGame\" />
-    <Folder Include="wwwroot\videos\" />
   </ItemGroup>
 
   <ItemGroup>
